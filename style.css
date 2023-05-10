@@ -1,0 +1,230 @@
+* {
+    font-family: Circular Std Black;
+}
+
+html {
+    font-size: 0.9rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: white;
+    background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.white-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.topBox {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.topLeftBox {
+    display: flex;
+    align-items: center;
+}
+
+#heart {
+    margin: 0px 12px;
+}
+
+.topRightBox {
+    display: flex;    
+}
+
+.topRightBox > div  {
+    margin: 0px 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Bottom box */
+
+.bottomBox {
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-between;
+}
+
+#NPMLogo {
+    margin: 0px 12px;
+}
+
+.bottomLeftBox {
+    display: flex;
+}
+
+#SearchBar {
+    display: flex;
+    margin: 5px;
+}
+
+input[type="text"] {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(221, 221, 221);
+    width: 70vw;
+}
+
+input:focus {
+    outline: none;
+}
+
+#SearchBar > button {
+    border: none;
+    padding: 0px 34px 0px 34px;
+    background-color: black;
+    color: white;
+}
+
+.bottomRightBox {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.bottomRightBox > button {
+    border: 0.5px solid grey;
+    padding: 0px 24px 0px 24px;
+    margin-right: 40px;
+}
+
+.bottomRightBox > button:hover {
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+#signin {
+    margin-right: 8px;
+    cursor: pointer;
+} 
+
+
+
+/* SECTION */
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 500px;
+    color: white;
+    text-align: center;
+}
+
+#mainHead {
+    font-size: 6rem;
+    margin-top: 100px;
+    color: black;
+}
+
+#SubPara {
+    font-size: 1.45rem;
+    margin-top: 70px;
+}
+
+#Para {
+    font-size: 3.5rem;
+    margin-top: 40px;
+    color: black;
+}
+
+#ThirdPara {
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+
+.btn {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.btn > button {
+    padding: 20px;
+    border-radius: 40px;
+    width: 15rem;
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#yellow, #transparent:hover {
+    color: black;
+    background-color: #ffc329;
+    border: none;
+}
+
+#transparent, #yellow:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* ARTICLE */
+
+.mainSection {
+    background-color: white;
+    margin: 30px 100px;
+    border-radius: 50px;
+}
+
+.sectionClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 400px;
+    color: black;
+    text-align: center;
+}
+
+#article_section {
+    margin-top: 120px;
+    font-size: 3rem;
+}
+
+#article_subSection {
+    margin-top: 70px;
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+
+
+/* FOOTER */
+
+.Footer {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+Footer >div > h3 {
+    font-size: 1.3rem;
+}
+
+Footer > div > p {
+    color: rgb(182, 182, 182);
+    font-size: 1.2rem;
+}
